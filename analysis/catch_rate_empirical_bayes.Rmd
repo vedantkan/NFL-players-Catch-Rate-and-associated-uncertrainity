@@ -39,10 +39,10 @@ Let's consider you are working on this application because you were recently hir
 You will work with two datasets for this exam. Both are loaded for you in code chunk below. The first, `df_all`, is the larger of the two. The second, `df_focus`, is a subset of `df_all` so that we way can focus on 23 players to help with visualization and discussion in the exam.  
 
 ```{r, load_datasets}
-file_with_all <- "midterm_all_data.csv"
+file_with_all <- "../data/midterm_all_data.csv"
 df_all <- readr::read_csv(file_with_all, col_names = TRUE)
 
-file_with_focus <- "midterm_focus_data.csv"
+file_with_focus <- "../data/midterm_focus_data.csv"
 df_focus <- readr::read_csv(file_with_focus, col_names = TRUE)
 ```
 

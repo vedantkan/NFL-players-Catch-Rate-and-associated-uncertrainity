@@ -1,0 +1,9 @@
+# Data (not redistributed)
+data/*.csv
+
+# R
+.Rhistory
+.RData
+.Rproj.user/
+*_cache/
+*_files/
